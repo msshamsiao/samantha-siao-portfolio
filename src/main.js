@@ -2,12 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import Buefy from 'buefy'
 
-import{ init } from '@emailjs/browser';
-init("lwXyEgiMOjkzeMHXV");
-
 import 'buefy/dist/buefy.css'
 import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css'
-
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faBars } from "@fortawesome/free-solid-svg-icons";

@@ -138,6 +138,7 @@
         <p class="title is-2 name">Contact</p>
         <hr class="hr" />
         <div class="mb-6"><br/><br/>
+<<<<<<< HEAD
           <form @submit.prevent="sendEmail">
             <b-field label="Name" 
               :label-position="labelPosition">
@@ -160,6 +161,26 @@
             
             <button class="button is-primary">Submit</button>
             </form>
+=======
+
+          <b-field label="Name" 
+            :label-position="labelPosition">
+            <b-input placeholder="Enter your name"  maxlength="30"></b-input>
+          </b-field>
+
+          <b-field label="Email" 
+            :label-position="labelPosition">
+            <b-input type="email" placeholder="Enter your position" maxlength="30">
+            </b-input>
+          </b-field>
+
+          <b-field label="Message"
+            :label-position="labelPosition">
+            <b-input maxlength="200" type="textarea"></b-input>
+          </b-field>
+
+           <b-button type="is-primary">Submit</b-button>
+>>>>>>> b08b5e99f6f3d46b1013f46ef65226fe36273b25
         </div>
       </div>
     </div>
@@ -181,7 +202,6 @@
 
 <script>
   import Timeline from 'timeline-vuejs'
-  import emailjs from 'emailjs-com';
   
   export default {
     components: {
@@ -189,12 +209,7 @@
     },
     data() {
       return {
-        name: '',
-        email: '',
-        message: '',
-
         labelPosition: 'on-border',
-
         messageWhenNoItems: 'There are not items',
         timelineItems: [
           {
@@ -223,25 +238,6 @@
           }
         ]
       }
-    },
-    methods: {
-      sendEmail(e) {
-        try {
-          emailjs.sendForm('service_v1gzxml', 'template_k7lifi4', e.target,
-          'lwXyEgiMOjkzeMHXV', {
-            name: this.name,
-            email: this.email,
-            message: this.message
-          })
-
-        } catch(error) {
-            console.log({error})
-        }
-        // Reset form field
-        this.name = ''
-        this.email = ''
-        this.message = ''
-      },
     }
   }
 </script>
