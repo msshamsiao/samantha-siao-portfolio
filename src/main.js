@@ -15,10 +15,11 @@ import {
   faLinkedin,
   faBehance,
   faViber,
+  faGooglePlusG
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faBars, faTwitter, faFacebook, faStackOverflow, faGithub, faLinkedin, faBehance, faViber);
+library.add(faBars, faTwitter, faFacebook, faStackOverflow, faGithub, faLinkedin, faBehance, faViber, faGooglePlusG);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.use(Buefy)
