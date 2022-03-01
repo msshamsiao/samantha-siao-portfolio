@@ -27,13 +27,20 @@
             <i class="fab fa-facebook-f fa-lg"></i>
           </a>
           <a class="button is-medium is-behance" style="width: 50px;" href="https://www.behance.net/msshamsiao" target="_blank">
-            <i class="fab fa-behance fa-lg icon-behance"></i>
+            <i class="fab fa-behance fa-lg icon-class"></i>
           </a>
-          <a class="button is-medium is-viber" style="width: 50px;" href="#">
-            <b-tooltip label="09518579224" position="is-right">
-                <i class="fab fa-viber fa-lg icon-viber"></i>
+          <a class="button is-medium is-github" style="width: 50px;" href="https://github.com/msshamsiao" target="_blank">
+            <i class="fab fa-github fa-lg icon-class"></i>
+          </a>
+          <a class="button is-medium is-google-mail" style="width: 50px;">
+            <b-tooltip label="programmer.samantha.siao@gmail.com" position="is-bottom">
+                <i class="fab fa-google-plus-g fa-lg icon-class"></i>
+            </b-tooltip> 
+          </a>
+          <a class="button is-medium is-viber" style="width: 50px;">
+            <b-tooltip label="09518579224" position="is-bottom">
+                <i class="fab fa-viber fa-lg icon-class"></i>
             </b-tooltip>
-            
           </a>
         </div>
       </div>
@@ -220,10 +227,10 @@
   .is-behance{
     background-color: #033caf !important;
   }
-  .icon-viber{
-    color: #FFFFFF; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #FFFFFF;
+  .is-google-mail{
+    background-color: #D64135 !important;
   }
-  .icon-behance{
+  .icon-class{
     color: #FFFFFF; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #FFFFFF;
   }
 </style>
