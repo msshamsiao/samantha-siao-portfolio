@@ -1,58 +1,229 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div id="app">
+    <!-- biography -->
+    <div class="tile is-6 is-parent" id="left">
+      <div class="tile is-child pink post">
+        <p class="title is-2 name has-text-left">Hi, I'm Samantha Siao</p>
+        <p class="subtitle has-text-grey job has-text-left">Web Developer</p>
+        <hr class="hr" />
+        <div class="content has-text-grey description">
+          <p class="has-text-left">
+            Hi, I'm Samantha Siao a web developer with over three years of experience, 
+            currently working as a Web Developer at GoETU Software Solutions in the Software Engineering Team. 
+            Currently pursuing Master's Degree of Information Technology at Rizal Technology University - Graduate School. 
+          </p>
+          <p class="has-text-left">
+            Previously, I worked at Pierre and Paul Solutions Inc. as a IT Supervisor & Programmer / System Analyst. 
+          </p>
+          <p class="has-text-left">
+            I am passionate about programming.
+          </p>
+        </div>
+        <div class="buttons">
+          <a class="button is-medium is-linkedin" style="width: 50px;" href="https://www.linkedin.com/in/msshamsiao/" target="_blank">
+            <i class="fab fa-linkedin-in fa-lg"></i>
+          </a>
+          <a class="button is-medium is-facebook" style="width: 50px;" href="https://www.facebook.com/msshamsiao/" target="_blank">
+            <i class="fab fa-facebook-f fa-lg"></i>
+          </a>
+          <a class="button is-medium is-behance" style="width: 50px;" href="https://www.behance.net/msshamsiao" target="_blank">
+            <i class="fab fa-behance fa-lg icon-behance"></i>
+          </a>
+          <a class="button is-medium is-viber" style="width: 50px;" href="#">
+            <b-tooltip label="09518579224" position="is-right">
+                <i class="fab fa-viber fa-lg icon-viber"></i>
+            </b-tooltip>
+            
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-6 is-parent" id="right"></div>
+
+    <!-- skills -->
+    <div class="tile is-6 is-parent" id="left">
+      <div class="tile is-child pink host">
+        <p class="title is-2 name">Skills</p>
+        <hr class="hr" />
+        <div class="mb-6"><br/><br/>
+          <div class="columns">
+            <div class="column">
+              <img class="brand-class" src="../assets/skills/php.svg" style="width: 50px;" alt="linkedin"><br/>
+              <p class="title is-5 name">PHP Framework</p>
+              <p class="subtitle is-6">(Laravel)</p>
+            </div>
+            <div class="column">
+              <img class="brand-class" src="../assets/skills/database.svg" style="width: 50px;" alt="linkedin"><br/>
+              <p class="title is-5 name">Databases</p>
+              <p class="subtitle is-6">(MySQL, MSSQL, Basic Firebase)</p>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <img class="brand-class" src="../assets/skills/javascript.svg" style="width: 50px;" alt="linkedin"><br/>
+              <p class="title is-5 name">JS Libraries</p>
+              <p class="subtitle is-6">(jQuery, Parsley, Popper, D3, Chart, Node)</p>
+            </div><br/>
+            <div class="column">
+              <img class="brand-class" src="../assets/skills/css.svg" style="width: 50px;" alt="linkedin"><br/>
+              <p class="title is-5 name">CSS Framework</p>
+              <p class="subtitle is-6">(Bootstrap, Materialize, Buefy)</p>
+            </div>
+          </div><br/>
+          <div class="columns">
+            <div class="column">
+              <img class="brand-class" src="../assets/skills/vue.svg" style="width: 50px;" alt="linkedin"><br/>
+              <p class="title is-5 name">JS Framework</p>
+              <p class="subtitle is-6">(Basic Vue)</p>
+            </div>
+            <div class="column">
+              <img class="brand-class" src="../assets/skills/docker.svg" style="width: 50px;" alt="linkedin"><br/>
+              <p class="title is-5 name">DevOps</p>
+              <p class="subtitle is-6">(Vagrant)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="tile is-6 is-parent" id="left">
+      <div class="tile is-child pink host">
+        <p class="title is-2 name">Experience</p>
+        <hr class="hr" />
+        <div class="mb-6"><br/><br/>
+          <template>
+            <Timeline
+              :timeline-items="timelineItems"
+              :message-when-no-items="messageWhenNoItems"/>
+          </template>
+        </div>
+      </div>
+    </div>
+
+    <!-- Campus Talk -->
+    <div class="tile is-6 is-parent" id="left">
+      <div class="tile is-child pink host">
+        <p class="title is-2 name">Campus Talk</p>
+        <hr class="hr" />
+        <div class="mb-6"><br/><br/>
+          <div class="columns">
+            <div class="column">
+              <img class="" src="../assets/campus_talk/PUP.png" style="width:200px;" alt="linkedin"><br/>
+              <p class="title is-5 name">Polytechnic University of the Philippines (Main)</p>
+              <p class="subtitle is-6">Guest Speaker</p>
+            </div>
+          </div>
+          <div class="columns">
+             <div class="column">
+              <img class="" src="../assets/campus_talk/SLSU.gif" style="width: 200px;" alt="linkedin"><br/>
+              <p class="title is-5 name">Southern Luzon State University</p>
+              <p class="subtitle is-6">Resource Speaker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="tile is-6 is-parent" id="left">
+      <div class="tile is-child pink host">
+        <p class="title is-2 name">Contact</p>
+        <hr class="hr" />
+        <div class="mb-6"><br/><br/>
+
+          <b-field label="Name" 
+            :label-position="labelPosition">
+            <b-input placeholder="Enter your name"  maxlength="30"></b-input>
+          </b-field>
+
+          <b-field label="Email" 
+            :label-position="labelPosition">
+            <b-input type="email" placeholder="Enter your position" maxlength="30">
+            </b-input>
+          </b-field>
+
+          <b-field label="Message"
+            :label-position="labelPosition">
+            <b-input maxlength="200" type="textarea"></b-input>
+          </b-field>
+
+           <b-button type="is-primary">Submit</b-button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="tile is-6 is-parent" id="left">
+      <div class="tile is-child pink host">
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <p>
+              <strong>©</strong> 2022 <a href="#">Samantha Siao</a>.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  import Timeline from 'timeline-vuejs'
+  
+  export default {
+    components: {
+      Timeline
+    },
+    data() {
+      return {
+        labelPosition: 'on-border',
+        messageWhenNoItems: 'There are not items',
+        timelineItems: [
+          {
+            from: new Date(2020, 7),
+            title: 'Web Developer - GoETU Software Solutions Inc.',
+            description:
+              ''
+          },
+          {
+            from: new Date(2018, 5),
+            title: 'IT Supervisor - Pierre and Paul Solutions Inc.',
+            description:
+              ''
+          },
+          {
+            from: new Date(2018, 3),
+            title: 'Programmer / System Analyst - Pierre and Paul Solutions Inc.',
+            description:
+              ''
+          },
+          {
+            from: new Date(2018, 2),
+            title: 'Web Developer (Partime) - Pierre and Paul Solutions Inc.',
+            description:
+              ''
+          }
+        ]
+      }
+    }
   }
-}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+  #right {
+    background-image: url('../assets/sam-siao.jpg');
+  }
+  .is-viber{
+    background-color: #5b4cbe !important;
+  }
+  .is-behance{
+    background-color: #033caf !important;
+  }
+  .icon-viber{
+    color: #FFFFFF; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #FFFFFF;
+  }
+  .icon-behance{
+    color: #FFFFFF; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #FFFFFF;
+  }
 </style>
