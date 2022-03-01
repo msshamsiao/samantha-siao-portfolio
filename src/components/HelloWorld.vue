@@ -138,25 +138,25 @@
         <p class="title is-2 name">Contact</p>
         <hr class="hr" />
         <div class="mb-6"><br/><br/>
+
           <form @submit.prevent="sendEmail">
-            
             <b-field label="Name" 
               :label-position="labelPosition">
               <b-field label="Name" 
                 :label-position="labelPosition">
-                <b-input placeholder="Enter your name" maxlength="30" v-model="name" name="name" required=""></b-input>
+                <b-input placeholder="Enter your name" maxlength="30" v-model="name" name="name" required></b-input>
               </b-field>
             </b-field>
 
             <b-field label="Email" 
               :label-position="labelPosition">
-              <b-input type="email" placeholder="Enter your position" maxlength="30" v-model="email" name="email" required="">
+              <b-input type="email" placeholder="Enter your position" maxlength="30" v-model="email" name="email" required>
               </b-input>
             </b-field>
 
             <b-field label="Message"
               :label-position="labelPosition">
-              <b-input maxlength="200" type="textarea" name="message" v-model="message" required=""></b-input>
+              <b-input maxlength="200" type="textarea" name="message"  v-model="message" required></b-input>
             </b-field>
             
             <button class="button is-primary">Submit</button>
@@ -182,6 +182,7 @@
 
 <script>
   import Timeline from 'timeline-vuejs'
+  import emailjs from 'emailjs-com';
   
   export default {
     components: {
@@ -189,7 +190,12 @@
     },
     data() {
       return {
+        name: '',
+        email: '',
+        message: '',
+
         labelPosition: 'on-border',
+
         messageWhenNoItems: 'There are not items',
         timelineItems: [
           {
@@ -218,6 +224,25 @@
           }
         ]
       }
+    },
+    methods: {
+      sendEmail(e) {
+        try {
+          emailjs.sendForm('service_v1gzxml', 'template_k7lifi4', e.target,
+          'lwXyEgiMOjkzeMHXV', {
+            name: this.name,
+            email: this.email,
+            message: this.message
+          })
+
+        } catch(error) {
+            console.log({error})
+        }
+        // Reset form field
+        this.name = ''
+        this.email = ''
+        this.message = ''
+      },
     }
   }
 </script>
