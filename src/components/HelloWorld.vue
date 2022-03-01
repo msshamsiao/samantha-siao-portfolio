@@ -138,7 +138,6 @@
         <p class="title is-2 name">Contact</p>
         <hr class="hr" />
         <div class="mb-6"><br/><br/>
-<<<<<<< HEAD
           <form @submit.prevent="sendEmail">
             <b-field label="Name" 
               :label-position="labelPosition">
@@ -161,7 +160,6 @@
             
             <button class="button is-primary">Submit</button>
             </form>
-=======
 
           <b-field label="Name" 
             :label-position="labelPosition">
@@ -180,7 +178,6 @@
           </b-field>
 
            <b-button type="is-primary">Submit</b-button>
->>>>>>> b08b5e99f6f3d46b1013f46ef65226fe36273b25
         </div>
       </div>
     </div>
