@@ -160,24 +160,6 @@
             
             <button class="button is-primary">Submit</button>
             </form>
-
-          <b-field label="Name" 
-            :label-position="labelPosition">
-            <b-input placeholder="Enter your name"  maxlength="30"></b-input>
-          </b-field>
-
-          <b-field label="Email" 
-            :label-position="labelPosition">
-            <b-input type="email" placeholder="Enter your position" maxlength="30">
-            </b-input>
-          </b-field>
-
-          <b-field label="Message"
-            :label-position="labelPosition">
-            <b-input maxlength="200" type="textarea"></b-input>
-          </b-field>
-
-           <b-button type="is-primary">Submit</b-button>
         </div>
       </div>
     </div>
