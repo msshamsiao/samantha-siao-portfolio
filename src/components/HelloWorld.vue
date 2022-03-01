@@ -138,45 +138,24 @@
         <p class="title is-2 name">Contact</p>
         <hr class="hr" />
         <div class="mb-6"><br/><br/>
-
-          <!-- <form>
-            <b-field label="Name" 
-            :label-position="labelPosition">
-            <b-input placeholder="Enter your name"  maxlength="30" name="name"></b-input>
-          </b-field>
-
-          <b-field label="Email" 
-            :label-position="labelPosition">
-            <b-input type="email" placeholder="Enter your position" maxlength="30" name="email">
-            </b-input>
-          </b-field>
-
-          <b-field label="Message"
-            :label-position="labelPosition">
-            <b-input maxlength="200" type="textarea" name="message"></b-input>
-          </b-field>
-
-           <b-button type="is-primary">Submit</b-button>
-          </form> -->
-
           <form @submit.prevent="sendEmail">
             <b-field label="Name" 
               :label-position="labelPosition">
               <b-field label="Name" 
                 :label-position="labelPosition">
-                <b-input placeholder="Enter your name" maxlength="30" v-model="name" name="name"></b-input>
+                <b-input placeholder="Enter your name" maxlength="30" v-model="name" name="name" required=""></b-input>
               </b-field>
             </b-field>
 
             <b-field label="Email" 
               :label-position="labelPosition">
-              <b-input type="email" placeholder="Enter your position" maxlength="30" v-model="email" name="email">
+              <b-input type="email" placeholder="Enter your position" maxlength="30" v-model="email" name="email" required="">
               </b-input>
             </b-field>
 
             <b-field label="Message"
               :label-position="labelPosition">
-              <b-input maxlength="200" type="textarea" name="message"  v-model="message"></b-input>
+              <b-input maxlength="200" type="textarea" name="message" v-model="message" required=""></b-input>
             </b-field>
             
             <button class="button is-primary">Submit</button>
