@@ -159,7 +159,8 @@
               <b-input maxlength="200" type="textarea" name="message"  v-model="message" required></b-input>
             </b-field>
             
-            <button class="button is-primary">Submit</button>
+            <!-- <button class="button is-primary">Submit</button> -->
+            <input type="submit" value="Submit">
             </form>
         </div>
       </div>
