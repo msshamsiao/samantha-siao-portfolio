@@ -139,6 +139,7 @@
         <hr class="hr" />
         <div class="mb-6"><br/><br/>
           <form @submit.prevent="sendEmail">
+            
             <b-field label="Name" 
               :label-position="labelPosition">
               <b-field label="Name" 
