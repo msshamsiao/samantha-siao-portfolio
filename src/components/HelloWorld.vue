@@ -160,7 +160,7 @@
             </b-field>
             
             <!-- <button class="button is-primary">Submit</button> -->
-            <input type="submit" value="Submit">
+            <input type="submit" class="button is-primary" value="Submit">
             </form>
         </div>
       </div>
