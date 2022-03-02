@@ -150,7 +150,7 @@
 
             <b-field label="Email" 
               :label-position="labelPosition">
-              <b-input type="email" placeholder="Enter your position" maxlength="30" v-model="email" name="email" required>
+              <b-input type="email" placeholder="Enter your email address" maxlength="30" v-model="email" name="email" required>
               </b-input>
             </b-field>
 
