@@ -5,7 +5,7 @@
       <div class="tile is-child pink post">
         <p class="title is-2 name has-text-left">Hi, I'm Samantha Siao</p>
         <p class="subtitle has-text-grey job has-text-left">Web Developer</p>
-        <hr class="hr" />
+        <hr class="hr" /> 
         <div class="content has-text-grey description">
           <p class="has-text-left">
             Hi, I'm Samantha Siao a web developer with over three years of experience, 
