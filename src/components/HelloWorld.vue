@@ -10,10 +10,10 @@
           <p class="has-text-left">
             Hi, I'm Samantha Siao a web developer with over three years of experience, 
             currently working as a Web Developer at GoETU Software Solutions in the Software Engineering Team. 
-            Currently pursuing Master's Degree of Information Technology at Rizal Technology University - Graduate School. 
+            Currently pursuing a Master's Degree in Information Technology at Rizal Technology University - Graduate School.
           </p>
           <p class="has-text-left">
-            Previously, I worked at Pierre and Paul Solutions Inc. as a IT Supervisor & Programmer / System Analyst. 
+            Previously, I worked at Pierre and Paul Solutions Inc. as an IT Supervisor & Programmer / System Analyst. 
           </p>
           <p class="has-text-left">
             I am passionate about programming.
