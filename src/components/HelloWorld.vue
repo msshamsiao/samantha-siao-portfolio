@@ -13,7 +13,7 @@
             Currently pursuing Master's Degree of Information Technology at Rizal Technology University - Graduate School. 
           </p>
           <p class="has-text-left">
-            Previously, I worked at Pierre and Paul Solutions Inc. as a IT Supervisor & Programmer / System Analyst. 
+            Previously, I worked at Pierre and Paul Solutions Inc. as an IT Supervisor & Programmer / System Analyst. 
           </p>
           <p class="has-text-left">
             I am passionate about programming.
