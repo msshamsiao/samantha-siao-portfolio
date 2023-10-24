@@ -8,14 +8,16 @@
         <hr class="hr" />
         <div class="content has-text-grey description">
           <p class="has-text-left">
-            Hi, I'm Samantha Siao a Software Engineer with over years of experience, 
+            Hi, I'm Samantha Siao a Software Engineer with over five years of experience, 
             and I am pursuing a Master's Degree in Information Technology at Rizal Technology University - Graduate School.
           </p>
           <p class="has-text-left">
-           Previously, I worked at Pierre and Paul Solutions Inc. as an IT Supervisor and Programmer/System Analyst.
+           Previously, I worked as a Web Developer at GoETU Software Solutions and <br/>
+           at Pierre and Paul Solutions Inc. as an IT Supervisor and Programmer/System Analyst.
           </p>
           <p class="has-text-left">
-            I am passionate about programming.
+            I'm passionate about backend programming and I have a passion for teaching, <br/>
+            sharing my knowledge, and inspiring the next generation of IT professionals.
           </p>
         </div>
         <div class="buttons">
