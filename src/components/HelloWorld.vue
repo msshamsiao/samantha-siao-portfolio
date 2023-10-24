@@ -12,11 +12,11 @@
             and I am pursuing a Master's Degree in Information Technology at Rizal Technology University - Graduate School.
           </p>
           <p class="has-text-left">
-           Previously, I worked as a Web Developer at GoETU Software Solutions and <br/>
+           Previously, I worked as a Web Developer at GoETU Software Solutions and
            at Pierre and Paul Solutions Inc. as an IT Supervisor and Programmer/System Analyst.
           </p>
           <p class="has-text-left">
-            I'm passionate about backend programming and I have a passion for teaching, <br/>
+            I'm passionate about backend programming and I have a passion for teaching,
             sharing my knowledge, and inspiring the next generation of IT professionals.
           </p>
         </div>
