@@ -4,7 +4,7 @@
     <div class="tile is-6 is-parent" id="left">
       <div class="tile is-child pink post">
         <p class="title is-2 name has-text-left">Hi, I'm Samantha Siao</p>
-        <p class="subtitle has-text-grey job has-text-left">Web Developer</p>
+        <p class="subtitle has-text-grey job has-text-left">Software Engineer</p>
         <hr class="hr" />
         <div class="content has-text-grey description">
           <p class="has-text-left">
