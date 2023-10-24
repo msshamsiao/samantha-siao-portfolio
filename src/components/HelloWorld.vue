@@ -8,7 +8,7 @@
         <hr class="hr" />
         <div class="content has-text-grey description">
           <p class="has-text-left">
-            Hi, I'm Samantha Siao a Software Engineer with over five years of experience, 
+            Hi, I'm Samantha Siao, a Software Engineer with over five years of experience, 
             and I am pursuing a Master's Degree in Information Technology at Rizal Technology University - Graduate School.
           </p>
           <p class="has-text-left">
