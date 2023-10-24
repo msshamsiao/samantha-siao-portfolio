@@ -13,7 +13,7 @@
           </p>
           <p class="has-text-left">
            Previously, I worked as a Web Developer at GoETU Software Solutions and
-           at Pierre and Paul Solutions Inc. as an IT Supervisor and Programmer/System Analyst.
+           at Pierre & Paul Solutions Inc. as an IT Supervisor and Programmer/System Analyst.
           </p>
           <p class="has-text-left">
             I'm passionate about backend programming and I have a passion for teaching,
