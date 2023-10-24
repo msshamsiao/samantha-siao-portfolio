@@ -251,7 +251,7 @@
 
 <style>
   #right {
-    background-image: url('../assets/new-siao.jpg');
+    background-image: url('../assets/new-sam.jpg');
   }
   .is-viber{
     background-color: #5b4cbe !important;
