@@ -201,6 +201,12 @@
         messageWhenNoItems: 'There are not items',
         timelineItems: [
           {
+            from: new Date(2022, 8),
+            title: 'Software Engineer - Fligno Software Philippines',
+            description:
+              ''
+          },
+          {
             from: new Date(2020, 7),
             title: 'Web Developer - GoETU Software Solutions Inc.',
             description:
