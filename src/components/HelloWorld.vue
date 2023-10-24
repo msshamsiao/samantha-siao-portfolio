@@ -201,7 +201,7 @@
         messageWhenNoItems: 'There are not items',
         timelineItems: [
           {
-            from: new Date(2022, 8),
+            from: new Date(2022, 6),
             title: 'Software Engineer - Fligno Software Philippines',
             description:
               ''
